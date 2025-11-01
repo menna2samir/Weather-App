@@ -1,0 +1,27 @@
+@media (width < 1024px) {
+    .navbar-nav a {
+        width: 100%;
+    }
+    .navbar-nav{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .forcast-container{
+        flex-direction: column;
+    }
+    .forcast{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .navbar-nav {
+        width: 65%;
+    }
+
+    .navbar-nav a {
+        width: 20%;
+    }
+}

@@ -1,0 +1,269 @@
+body {
+    background-color: #1e202b;
+}
+
+.navbar .container {
+    width: 75%;
+}
+
+.navbar {
+    --bs-navbar-hover-color: #009ad8;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo-type {
+    width: 60%;
+}
+
+.logo-type h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    Color: white;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.logo-type small {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    color: #BFC1C8;
+}
+
+.navbar-nav .active,
+.navbar-nav a:hover {
+    padding: 2px 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-weight: 400;
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+
+.navbar-nav {
+    width: 65%;
+}
+
+.navbar-nav a {
+    color: white;
+    width: 15%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.navbar-nav .extra-width {
+    width: 30%;
+}
+
+.bg-image {
+    background-image: url('../images/weatherbackground.png');
+    min-height: 350px;
+    padding: 70px 0px;
+}
+
+.bg-image .container,
+.forcast-table .container {
+    width: 75%;
+}
+
+input#searchInput,
+#email-input {
+    background-color: #1e202b;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    color: white;
+}
+
+
+input#submitInput {
+    position: absolute;
+    right: 5px;
+    top: 10%;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    background-color: #009ad8;
+    color: white;
+}
+
+.forcast-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #262936;
+    border-radius: 10px;
+    position: relative;
+    bottom: 150px;
+}
+
+.forcast {
+    width: 33.33%;
+}
+
+.today {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.today .forcast-header {
+    border-top-left-radius: 5px;
+}
+
+.forcast-header {
+    background-color: #2d303d;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #BFC1C8;
+}
+
+.forcast-header-darker {
+    background-color: #222530;
+}
+
+.forcast-content {
+    background-color: #323544;
+    color: #bfc1c8;
+    padding: 50px 20px 10px;
+}
+
+.forecast-icon {
+    text-align: center;
+}
+
+.forecast-icon img {
+    width: 50px;
+}
+
+.forcast .degree {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.forcat small {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    size: 16px;
+    line-height: 24px;
+    color: #BFC1C8;
+}
+
+.forcast .custom {
+    color: #009ad8;
+}
+
+.today .forcast-content {
+    border-bottom-left-radius: 5px;
+    background-color: #323544;
+    color: #bfc1c8;
+}
+
+.today .location {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #BFC1C8;
+}
+
+.bg-darker {
+    background-color: #262936;
+}
+
+.bg-lighter {
+    background-color: #323544;
+}
+
+.today .degree {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 135px;
+    color: #FFFFFF;
+}
+
+.today .num {
+    height: 90px;
+}
+
+.today .degree img {
+    width: 100%;
+    height: auto;
+}
+
+.today .forecast-icon {
+    width: 90px;
+    height: 120px;
+}
+
+.today .custom {
+    color: #009ad8;
+}
+
+#email-input {
+    width: 75%;
+    padding: 20px 50px 20px 20px;
+}
+
+.site-footer {
+    background-color: #262936;
+    padding: 30px;
+}
+
+.colophon {
+    color: white;
+}
+
+#submit-input {
+    position: absolute;
+    right: 25.5%;
+    top: 5px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-color: #009ad8;
+    color: white;
+}
+
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+
+i {
+    font-size: 20px;
+    line-height: 20px;
+    color: #009AD8;
+}
+
+.social-links a:hover {
+    background-color: #009AD8;
+}
+
+.social-links a:hover i {
+    color: white;
+
+}
