@@ -1,5 +1,5 @@
 // 1- loading a common city
-window.addEventListener('load', () => {
+window.addEventListener('load', function(){
     getWeather('Cairo');
 });
 
