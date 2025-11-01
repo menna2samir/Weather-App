@@ -41,7 +41,7 @@ searchInput.addEventListener('input', function () {
 });
 
 async function getWeather(country) {
-    const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=61179e78d96547d28e694644253110&q=${country}&days=3`);
+    const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=61179e78d96547d28e694644253110&q=${country}&days=3`);
     const weatherData = await response.json();
 
     const nextDays = weatherData.forecast.forecastday.slice(1);
